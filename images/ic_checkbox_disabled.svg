@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_checkbox_disabled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_checkbox_disabled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M17,1.5 L3,1.5 C2.17614237,1.5 1.5,2.17614237 1.5,3 L1.5,17 C1.5,17.8238576 2.17614237,18.5 3,18.5 L17,18.5 C17.8238576,18.5 18.5,17.8238576 18.5,17 L18.5,3 C18.5,2.17614237 17.8238576,1.5 17,1.5 Z" stroke="#2BB031"></path>
+    </g>
+</svg>
