@@ -33,6 +33,7 @@ body {
 .send-receive {
     display: flex;
     background-color: #F7F8FC;
+    justify-content: center;
     /* padding: 25px 100px; */
 }
 
@@ -147,8 +148,8 @@ button a{
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  background: -webkit-repeating-linear-gradient(90deg, #777, #777 1px, transparent 1px, transparent 200px) no-repeat 50% 50%;
-  background: -moz-repeating-linear-gradient(90deg, #777, #777 1px, transparent 1px, transparent 200px) no-repeat 50% 50%;
+  /* background: -webkit-repeating-linear-gradient(90deg, #777, #777 1px, transparent 1px, transparent 200px) no-repeat 50% 50%;
+  background: -moz-repeating-linear-gradient(90deg, #777, #777 1px, transparent 1px, transparent 200px) no-repeat 50% 50%; */
   background: repeating-linear-gradient(90deg, #777, #777 1px, transparent 1px, transparent 200px) no-repeat 50% 50%;
 }
 
@@ -184,6 +185,7 @@ button a{
   left: 140px;
   top: 0px;
   z-index: -1;
+  padding-bottom: 0px;
 }
 
 .output {
