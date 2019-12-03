@@ -118,8 +118,8 @@ function calculateEstimates(){
        }
         // console.log("total", total);
         // console.log("avg", total / rangeInput.value);
-        sendPrice.innerText = sendTotal;
-        receivePrice.innerText = receiveTotal;
+        sendPrice.innerText = `$ ${sendTotal}`;
+        receivePrice.innerText = `$ ${receiveTotal}`;
     }
 }
 
@@ -138,15 +138,12 @@ function calculateEstimates(){
 // }
 
 
-var output = document.getElementById("demo");
 const pricingButton = document.querySelector('#pricing-button a');
 
 
   
-output.innerHTML = slider.value;
 
 slider.oninput = function() {
-  output.innerHTML = this.value;
   calculateEstimates();
   slider.style.cssText = `--val: ${this.value}`;
 }
@@ -155,7 +152,6 @@ function handleSlider(){
   // onmouseleave
   if(slider.value > 2000){
     slider.value = 2000;
-    output.innerHTML = 2000;
     slider.style.cssText = `--val: 2000`;
     calculateEstimates();
     pricingButton.innerText = "Contact Sales";
